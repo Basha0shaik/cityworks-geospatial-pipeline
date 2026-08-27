@@ -4,33 +4,7 @@ A Python-based geospatial data engineering pipeline for validating address data,
 
 ## Pipeline Architecture
 
-```text
-Incoming CSV
-     |
-     v
-  Extract
-     |
-     v
-  Validate ---------> Rejected Records
-     |
-     v
-   Clean
-     |
-     v
-Geospatial Transform
-     |
-     v
-PostgreSQL / PostGIS
-     |
-     v
-Climate Risk Analysis
-     |
-     v
-Pipeline Run Tracking
-     |
-     v
-Run Summary
-```
+![CityWorks Geospatial Data Pipeline Architecture](docs/cityworks_pipeline_architecture.png)
 
 ## Key Features
 
