@@ -1,0 +1,4 @@
+address_id,address,city,state,zip,latitude,longitude,rejection_reason
+1006,600 6th Avenue,New york,NY,10006,,-74.001,Missing latitude
+1007,700 7th Avenue,New york,NY,10007,150.0,-74.0,Invalid latitude
+1008,800 8th Avenue,New york,NY,10008,40.7188,-250.0,Invalid longitude
